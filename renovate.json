@@ -3,6 +3,14 @@
     "config:base"
   ],
   "includeForks": true,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+          "tencent:libpag"
+      ],
+      "enabled": false
+    }
+  ],
   "regexManagers": [
     {
       "fileMatch": ["^gradle/lib\\.versions\\.toml$"],
