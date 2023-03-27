@@ -3,12 +3,14 @@
     "config:base"
   ],
   "includeForks": true,
-  "packageRules": [
+  "regexManagers": [
     {
-      "matchPackageNames": [
-          "tencent:libpag"
+      "fileMatch": ["^gradle/lib\\.versions\\.toml$"],
+      "matchStrings": [
+        "libpag = \"(?<currentValue>.*?)\"\\n"
       ],
-      "matchDatasources": ["github-releases"]
+      "depNameTemplate": "Tencent/libpag"
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
