@@ -46,9 +46,9 @@ retrofitKotlinxSerializationJson = "0.8.0"
 room = "2.5.0-beta02"
 secrets = "2.0.1"
 turbine = "0.8.0"
+libpag = "v1.0.0"
 
 [libraries]
-libpag = "tencent:libpag:v1.0.0"
 accompanist-flowlayout = { group = "com.google.accompanist", name = "accompanist-flowlayout", version.ref = "accompanist" }
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 android-desugarJdkLibs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "androidDesugarJdkLibs" }
