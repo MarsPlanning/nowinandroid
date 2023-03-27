@@ -9,7 +9,7 @@
       "matchStrings": [
         "libpag = \"(?<currentValue>.*?)\"\\n"
       ],
-      "depNameTemplate": "Tencent/libpag"
+      "depNameTemplate": "Tencent/libpag",
       "datasourceTemplate": "github-releases"
     }
   ]
