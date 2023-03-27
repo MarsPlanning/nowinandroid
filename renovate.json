@@ -2,5 +2,13 @@
   "extends": [
     "config:base"
   ],
-  "includeForks": true
+  "includeForks": true,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+          "tencent:libpag"
+      ],
+      "matchDatasources": ["github-releases"]
+    }
+  ]
 }
