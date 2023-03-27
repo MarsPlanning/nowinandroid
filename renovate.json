@@ -3,16 +3,6 @@
     "config:base"
   ],
   "includeForks": true,
-  "ignoreUnstable": false,
-  "bumpVersion": "prerelease",
-  "packageRules": [
-    {
-      "matchPackageNames": [
-          "tencent:libpag"
-      ],
-      "enabled": false
-    }
-  ],
   "regexManagers": [
     {
       "fileMatch": ["^gradle/libs\\.versions\\.toml$"],
@@ -20,7 +10,9 @@
         "libpag = \"(?<currentValue>.*?)\""
       ],
       "depNameTemplate": "Tencent/libpag",
-      "datasourceTemplate": "github-releases"
+      "datasourceTemplate": "github-releases",
+      "ignoreUnstable": false,
+      "bumpVersion": "prerelease"
     }
   ]
 }
