@@ -13,9 +13,9 @@
   ],
   "regexManagers": [
     {
-      "fileMatch": ["^gradle/lib\\.versions\\.toml$"],
+      "fileMatch": ["^gradle/libs\\.versions\\.toml$"],
       "matchStrings": [
-        "libpag = \"(?<currentValue>.*?)\"\\n"
+        "libpag = \"(?<currentValue>.*?)\""
       ],
       "depNameTemplate": "Tencent/libpag",
       "datasourceTemplate": "github-releases"
